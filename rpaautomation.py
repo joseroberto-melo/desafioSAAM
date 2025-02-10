@@ -32,6 +32,7 @@ time.sleep(3)
 sucessos, falhas = 0, 0
 
 for _, row in df.iterrows():
+    # Incluindo cada elemento da planilha em cada campo do formulário
     try:
         driver.find_element(By.ID, "email").send_keys(row['email do solicitante'])
         driver.find_element(By.ID, "amount").send_keys(str(row['montante do empréstimo']))
@@ -51,7 +52,7 @@ for _, row in df.iterrows():
         print(f"{row['email do solicitante']}: Falha")
         logger.info(f"{row['email do solicitante']}: Falha")
         falhas += 1
-    
+    # Botão de Apply para adicionar o próximo 
     try:
         apply_buttons = [
             "/html/body/app-root/body/div/app-loan/app-loan-result/div/div[2]/div/button",
