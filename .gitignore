@@ -1,11 +1,6 @@
-# Logs
 automation.log
-
-# Arquivos gerados pelo Python
 __pycache__/
 *.pyc
 *.pyo
-
-# Configurações do ambiente virtual (se estiver usando)
 venv/
 .env
