@@ -1,0 +1,14 @@
+2025-02-09 22:23:40,504 - Inicio do processo
+2025-02-09 22:23:40,504 - ====== WebDriver manager ======
+2025-02-09 22:23:41,900 - Get LATEST chromedriver version for google-chrome
+2025-02-09 22:23:41,924 - Get LATEST chromedriver version for google-chrome
+2025-02-09 22:23:41,940 - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-09 22:23:43,228 - Navegador configurado
+2025-02-09 22:23:44,465 - Planilha carregada
+2025-02-09 22:23:51,171 - maria@teste.com: Concluido com sucesso
+2025-02-09 22:24:02,146 - pedro@teste.com: Concluido com sucesso
+2025-02-09 22:24:13,131 - daniela@teste.com: Concluido com sucesso
+2025-02-09 22:24:24,142 - joao@teste.com: Concluido com sucesso
+2025-02-09 22:24:35,101 - sandra@teste.com: Concluido com sucesso
+2025-02-09 22:24:41,002 - marcelo@teste.com: Concluido com sucesso
+2025-02-09 22:24:46,124 - Processo concluido: 6 sucessos, 0 falhas
